@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Zen+Antique&display=swap');
+
+body {
+  background-image: url("image1.png"), url("image2.png"), url("image3.png"), url("image4.png");
+  background-position: 90% 35%, 5% 70%, 7% 300%, 90% 350%;
+  background-size: 15%;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: white;
+  font-family: 'Klee One', cursive;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: 'Zen Antique', serif;
+  font-size: 40px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.options button {
+  background-color: #ff7c5c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: 'Klee One', cursive;
+}
+
+.options button:hover {
+  background-color: lightcoral;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Klee One', cursive;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#explanation {
+  margin-top: 20px;
+  text-align: left;
+}
