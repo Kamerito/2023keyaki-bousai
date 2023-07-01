@@ -6,8 +6,9 @@ body {
   background-size: 15%;
   background-repeat: no-repeat;
   text-align: center;
-  background-color: white;
+  background-color:  #fffafa;
   font-family: 'Klee One', cursive;
+  font-size:20px;
 }
 
 .container {
@@ -28,6 +29,7 @@ h1 {
 }
 
 .options button {
+  width: 25vw;
   background-color: blue;
   color: white;
   padding: 10px 20px;
@@ -37,6 +39,7 @@ h1 {
   margin-right: 20px;
   cursor: pointer;
   font-family: 'Klee One', cursive;
+  font-size: 20px;
 }
 
 .options button:hover {
